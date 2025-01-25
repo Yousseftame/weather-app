@@ -1,0 +1,40 @@
+HTML/CSS:
+Box Model: The box model in CSS describes the layout of elements on a web page, consisting of content, padding, border, and margin.
+Doctype Declaration: It defines the version of HTML in use and helps browsers render the page correctly.
+display Property: block makes an element a block box, inline makes it an inline box, and inline-block combines characteristics of both.
+avaScript:
+Hoisting: In JavaScript, variable and function declarations are moved to the top of their containing scope during compilation.
+== vs. ===: == checks for equality with type coercion, while === checks for strict equality without type coercion.
+Closures: Closures are functions that have access to variables from their outer (enclosing) scope, even after the outer function has finished executing.
+React:
+JSX: JSX is a syntax extension for JavaScript used with React that resembles XML or HTML and gets transpiled to JavaScript.
+Component Lifecycle: React components go through mounting, updating, and unmounting phases, each with specific lifecycle methods.
+setState: setState is used to update the state of a React component, triggering a re-render.
+Responsive Design:
+Making a Website Responsive: Use media queries, flexible grids/layouts, and responsive images.
+Media Queries: CSS media queries allow styles to be applied based on the characteristics of the device.
+Adaptive vs. Responsive Design: Responsive design adjusts to different screen sizes, while adaptive design tailors the layout for specific devices.
+Web Performance:
+Performance Improvement Techniques: Minimize HTTP requests, optimize images, use asynchronous loading, and leverage browser caching.
+Lazy Loading: Loading images only when they are about to be viewed.
+Minimizing HTTP Requests: Reduce the number of elements requiring separate server requests.
+Version Control:
+Git: Git is a distributed version control system that tracks changes in source code during software development.
+Rebase vs. Merge: Rebase integrates changes from one branch into another, while merge combines changes from different branches.
+Merge Conflict Resolution: Manually edit the conflicting parts in the code and commit the resolved changes.
+Web Accessibility:
+Importance of Accessibility: Ensures that websites are usable by people of all abilities and disabilities.
+ARIA Roles: Accessible Rich Internet Applications (ARIA) roles provide additional information to assistive technologies.
+Common Accessibility Issues: Lack of alt text for images, insufficient color contrast, and keyboard navigation issues.
+Build Tools:
+Webpack: Webpack is a module bundler that bundles JavaScript, CSS, and other assets for web development.
+Babel vs. ESLint: Babel transpiles modern JavaScript to an older version, while ESLint checks code for stylistic and programming errors.
+Code Splitting: Break down a large codebase into smaller, more manageable parts that can be loaded on demand.
+Testing:
+Unit Testing in JavaScript: Testing individual units or components of a program in isolation.
+Manual vs. Automated Testing: Manual testing is done by a human, while automated testing uses scripts or tools to test.
+Jest: Jest is a JavaScript testing framework commonly used with React for unit and snapshot testing.
+General Problem Solving:
+Coding Problem: Solving FizzBuzz or reversing a string demonstrates basic coding proficiency.
+Debugging Approach: Systematically identify and fix bugs by using debugging tools and reviewing the code.
+Challenging Problem: Describe the problem, the steps taken to solve it, and the outcome, emphasizing problem-solving skills and perseverance.

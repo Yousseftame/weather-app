@@ -1,0 +1,33 @@
+.wetherCity{
+  background-color: #3199ab ;
+}
+.fCard{
+  overflow: hidden ;
+}
+.toCard
+{
+  overflow: hidden ;
+}
+.nxWetherCity{
+  background-color: #e28989;
+  transition: .3s;
+}
+.nxWetherCity:hover
+{
+  background-color:#3199ab ;
+}
+body{
+  height: 100vh;
+  background: rgb(34,193,195);
+  background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(194,1,1,0.4543067226890757) 100%);
+}
+.search
+{
+    width: 80%;
+    margin: auto;
+}
+.data-bg-image
+{
+    width: 100%;
+    min-height: 350px;
+}

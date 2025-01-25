@@ -1,0 +1,107 @@
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>weather</title>
+  <link rel="stylesheet" href="css/all.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+
+  <div class="home">
+    <div class="data-bg-image h-50 d-flex align-items-center">
+      <div class="search">
+        <div>
+          <input type="text" class="form-control text-dark fw-bold py-2 rounded-5" id="search"  placeholder="City">
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row ">
+        <div class="col-lg-4 p-2">
+          <div class="bg-black rounded-3 fCard">
+            <div class="dateOfThisDay d-flex justify-content-between text-light">
+              <p id="day" class="m-3 ">day</p>
+              <p id="date" class="m-3 ">date</p>
+            </div>
+            <div class="wetherCity text-light">
+              <h2 id="city" class="pt-3 mx-3">city</h2>
+              <div>
+                <div class="degree d-flex justify-content-between ">
+                  <p id="todayDegree" class="fs-1 mt-4 mx-3 fw-bold">degree</p>
+                  <img id="todayIcon" class="w-25" src="" alt="">
+                </div>
+                <div class="description">
+                  <span id="description" class="text-warning mx-3">description</span>
+                </div>
+                <div class="7bshtkanat mx-3 py-2">
+                  <i id="humidity" class="fas fa-umbrella pr-1 text-light me-2"></i>
+                  <i id="wind_mph" class="fas fa-wind pl-3 pr-1 text-light mx-3"></i>
+                  <i id="wind_dir" class="far fa-compass pl-3 pr-1 text-light ms-2"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 p-2">
+          <div class="bg-black rounded-3 toCard">
+            <div class="dateOfThisDay text-center text-light">
+              <p id="nextDay" class="mt-2">day</p>
+            </div>
+            <div class="nxWetherCity text-light">
+              <div>
+                <div class="degree text-center my-3">
+                  <img id="nexDayIcon" class="mt-2" src="" alt="">
+                  <p id="nexDegree" class="fs-1 mx-2 fw-bold">degree</p>
+                  <p id="minDegree" class="text-center">degree</p>
+                </div>
+                <div class="description">
+                  <div id="nexDescription" class="text-warning text-center pb-4 mx-2">description</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 p-2">
+          <div class="bg-black rounded-3 toCard">
+            <div class="dateOfThisDay text-center text-light">
+              <p id="nextDay" class="m-2">day</p>
+            </div>
+            <div class="nxWetherCity text-light">
+              <div>
+                <div class="degree text-center my-3">
+                  <img id="nexDayIcon" class="mt-2" src="" alt="">
+                  <p id="nexDegree" class="fs-1 mx-2 fw-bold">degree</p>
+                  <p id="minDegree" class="text-center">degree</p>
+                </div>
+                <div class="description">
+                  <div id="nexDescription" class="text-warning text-center pb-4 mx-2">description</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script type="module">
+    import Chatbot from "https://cdn.jsdelivr.net/npm/flowise-embed/dist/web.js"
+    Chatbot.init({
+        chatflowid: "d566ad37-9742-42d6-865b-d39e7b78f877",
+        apiHost: "http://localhost:3000",
+    })
+</script>
+
+  <script src="js/bootstrap.bundle.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
+
+
